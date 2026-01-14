@@ -1,4 +1,4 @@
-# Window World of Omaha
+# Window World of Wichita
 
 Note: this site has the email sender in breeze-child/includes/setup.php. The Sendgrid API key needs to be in wp-config or another env file.
 
