@@ -1,0 +1,54 @@
+{
+    "name": "trimarkdigital/jerseycoastwindows.com",
+    "description": "A WordPress website built for Window World of Jersey Coast.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Robert Povelones",
+            "email": "robert@trimarkdigital.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://connect.advancedcustomfields.com"
+        },
+		{
+			"type": "vcs",
+			"url": "git@github.com:trimarkdigital/breeze.git"
+		},
+		{
+			"type": "composer",
+			"url": "https://composer.gravity.io"
+		}
+    ],
+    "require": {
+        "composer/installers": "^2.0",
+        "gravity/gravityforms": "^2.9",
+        "trimarkdigital/breeze": "^2.0",
+        "wpackagist-plugin/wordpress-seo": "^25.0",
+        "wpackagist-plugin/disable-comments": "^2.3",
+        "wpackagist-plugin/redirection": "^5.2",
+        "wpengine/advanced-custom-fields-pro": "^6.0",
+        "wpackagist-plugin/duplicate-post": "^4.5"
+    },
+    "extra": {
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

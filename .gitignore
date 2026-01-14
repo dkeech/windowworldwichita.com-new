@@ -1,0 +1,65 @@
+##### OSX Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+##### Packaged Files
+*.dmg
+*.gz
+*.tar
+*.tmb
+*.zip
+
+##### Log Files & Databases
+*.log
+*.sql
+*.sqlite
+
+##### Node / Gulp
+node_modules/
+gulp-config.json
+
+##### Project Assets / Materials
+/_assets/
+/_material/
+/vendor/
+auth.json
+local-xdebuginfo.php
+/scripts/
+
+##############################
+##### Wordpress
+
+# Ignore core WordPress files ...
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/.htaccess
+
+# Ignore everything in wp-content, except ...
+/wp-content/*
+!/wp-content/mu-plugins/
+!/wp-content/plugins/
+!/wp-content/themes/
+
+# Ignore everything in plugins, except ...
+/wp-content/mu-plugins/*
+/wp-content/plugins/*
+!/wp-content/mu-plugins/trimark-migration.php
+
+# Ignore core themes
+/wp-content/themes/twenty*/
+
+# Ignore Breeze theme specifically
+/wp-content/themes/breeze/
+
+# Ignore backup files
+*.bak

@@ -1,0 +1,12 @@
+{
+    "http-basic": {
+        "connect.advancedcustomfields.com": {
+            "username": "YOUR_LICENSE_KEY",
+            "password": "https://YOUR_SITE_URL"
+        },
+        "composer.gravity.io": {
+            "username": "YOUR_LICENSE_KEY",
+            "password": "https://YOUR_SITE_URL"
+        }
+    }
+}
